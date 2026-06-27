@@ -24,8 +24,8 @@ The analysis uses the **Online Retail II dataset**, which contains over 1 millio
 
 1. **Python (Data Preprocessing)**: Handled missing values, removed canceled orders, formatted date-time columns, and standardized categorical data in Jupyter Notebooks.
 2. **PostgreSQL (Data Analysis)**: Constructed CTEs and utilized Window Functions (`NTILE`, `DENSE_RANK`) to compute RFM scores and bucket customers into 7 distinct segments. Analyzed revenue streams and geographical distribution.
-3. **Power BI (Data Visualization)**: Built a 5-page interactive dashboard to track segment migration, revenue contribution, and country-level at-risk metrics.
-4. **Insights Generation**: Formulated strategic recommendations based on quantitative findings.
+3. Power BI (Data Visualization): Built a 4-page interactive dashboard to track segment migration, revenue contribution, and country-level at-risk metrics.
+4. Insights Generation: Formulated strategic recommendations based on quantitative findings.
 
 ---
 
@@ -40,7 +40,7 @@ The analysis uses the **Online Retail II dataset**, which contains over 1 millio
 ---
 
 ## 📈 Interactive Dashboard
-*(The dashboard consists of 5 interactive pages. Below are the key views.)*
+*(The dashboard consists of 4 interactive pages. Below are the key views.)*
 
 ### 1. Executive Summary
 ![Executive Summary](dashboard/screenshots/01_executive_summary.png)
@@ -50,15 +50,11 @@ The analysis uses the **Online Retail II dataset**, which contains over 1 millio
 ![Segment Deep Dive](dashboard/screenshots/02_segment_deep_dive.png)
 *Detailed breakdown of Recency, Frequency, and Monetary averages per segment.*
 
-### 3. Geographical Analysis
-![Geographical Analysis](dashboard/screenshots/03_geographical_analysis.png)
-*Global map highlighting revenue hotspots and at-risk regions.*
-
-### 4. Product Affinity & Basket Analysis
+### 3. Product Affinity & Basket Analysis
 ![Product Affinity](dashboard/screenshots/04_product_affinity.png)
 *Analysis of frequently co-purchased items and top-performing products.*
 
-### 5. Churn & Retention Trends
+### 4. Churn & Retention Trends
 ![Churn Trends](dashboard/screenshots/05_churn_trends.png)
 *Monthly cohort tracking showing customer migration between segments over time.*
 
