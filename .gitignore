@@ -1,0 +1,26 @@
+# Environments
+envs/
+myenv/
+code/envs/
+code/envs/myenv/
+.env
+**/.env
+**/envs/
+**/myenv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+__pycache__/
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+# Datasets (if they are too large to commit)
+dataset/online_retail_II.csv
+
+# PowerBI lock files or cache if any
+# (we only track the .pbix file)
+*.pbit
+
+# OS generated files
+.DS_Store
+Thumbs.db
